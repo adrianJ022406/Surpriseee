@@ -28,7 +28,7 @@ function showMessage(response) {
     noButton.addEventListener("mouseover", () => {
       if (!videoPlayed) {
         const videoElement = document.createElement("video");
-        videoElement.src = "./MALAYKO.mp4#t=42";
+        videoElement.src = "./Maroon 5 - Sugar.mp4#t=42";
         videoElement.autoplay = true;
         videoElement.controls = false;
         document.body.appendChild(videoElement);
@@ -72,10 +72,10 @@ function showMessage(response) {
 
     // Update the text content, display the message, and change the image to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "See you on the 14th, MY BANTUT!";
+    yesMessage.textContent = "See you on the 14th my princess";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/VALENTINEGIFT.jpeg";
+    document.getElementsByClassName("image")[0].src = "images/dance.gif";
 
     // Remove the "Yes" button
     document.getElementById("yesButton").remove();
